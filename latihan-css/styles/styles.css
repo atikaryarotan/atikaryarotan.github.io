@@ -5,8 +5,9 @@
 /* Start Body */
 body {
     /* Properti */
-   background-color: antiquewhite;
-    color: palevioletred;
+    background-color: rgb(230, 198, 209);
+    background-image: url(../images/background);
+    color: rgb(182, 28, 79);
     font-family: Roboto , Arial, sans-serif;
     font-size: 16px;
     line-height: 1.5em;
@@ -17,10 +18,10 @@ body {
 
 /* Start Debug */
 .bg-blue {
-    background-color: palegoldenrod;
+    background-color: yellow;
 }
 .bg-red {
-    background-color: blanchedalmond;
+    background-color: rgb(247, 152, 11);
 }
 /* End Debug */
 
@@ -38,9 +39,9 @@ body {
 }
 
 .container-full {
-        margin: 10px auto;
-        overflow: auto;
-        width: 100%; 
+    margin: 10px auto;
+    overflow: auto;
+    width: 100%; 
 }
 /* End Container */
 
@@ -48,6 +49,8 @@ body {
 .logo {
     text-align: center;
 }
+
+
 /* End Logo  */
 
 /*Start Anchor/Hyperlink*/
@@ -95,7 +98,7 @@ a:active{
 
 .menu-primer .active {
     background: palevioletred;
-    color: palegoldenrod;
+    color: #fff;
     text-decoration: none;
 }
 
@@ -136,7 +139,7 @@ h6 {
 /* Start Jumbroton*/
 .jumbroton {
     background-color: blanchedalmond;
-    border: 1px solid azure;
+    border: 1px solid rgb(228, 144, 190);
     border-radius: 4px;
     padding: 20px 0;
 }
@@ -177,8 +180,9 @@ h6 {
 
 /* Start Box*/
 .box-heading {
-    background-color:blanchedalmond;
-    border : 1px solid rgb(241, 176, 198);
+    color: #ffff;
+    background-color:palevioletred;
+    border : 1px solid rgb(197, 118, 144);
     border-radius: 3px 3px 0 0;
     margin: 0;
     padding: 10px 20px;
@@ -192,7 +196,7 @@ h6 {
 }
 
 .box-isi {
-    background-color:#ffffff;
+    background-color:blanchedalmond;
     border : 1px solid rgb(241, 176, 198);
     border-top: 0;
     margin: 0;
@@ -201,7 +205,7 @@ h6 {
 }
 
 .box-isi-Artikel-Testi {
-    background-color:#ffffff;
+    background-color:blanchedalmond;
     border: 1px solid  rgb(241, 176, 198);
     border-top: 0;
     margin: 0;
@@ -265,18 +269,8 @@ h6 {
     vertical-align: middle;
 }
 
-
 /* End Menu Sekunder */
 
-
-
-
-/*menusekunder*/
-
-/*.ul-padding {
-    padding-inline-start: 0%;
-}
-*/
 /* Start copyright*/
 .copyright p {
     font-size: 15px;
@@ -284,6 +278,145 @@ h6 {
 }
 
 /* End copyright */
+
+/* Start JS hiasan*/
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat:200);
+.snip1577 {
+  font-family: 'Montserrat', Arial, sans-serif;
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  margin: 10px;
+  min-width: 30%;
+  max-width: 30%;
+  width: 100%;
+  color: #fff;
+  text-align: left;
+  font-size: 16px;
+  background: #000;
+}
+
+.snip1577 *,
+.snip1577:before,
+.snip1577:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+.snip1577 img {
+  max-width: 100%;
+  backface-visibility: hidden;
+  vertical-align: top;
+}
+
+.snip1577:before,
+.snip1577:after {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  content: '';
+  background-color: #fff;
+  z-index: 1;
+  opacity: 0;
+}
+
+.snip1577:before {
+  width: 0;
+  height: 1px;
+}
+
+.snip1577:after {
+  height: 0;
+  width: 1px;
+}
+
+.snip1577 figcaption {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  padding: 15px 20px;
+}
+
+.snip1577 h3,
+.snip1577 h4 {
+  margin: 0;
+  font-size: 1.1em;
+  font-weight: normal;
+  opacity: 0;
+}
+
+.snip1577 h4 {
+  font-size: .8em;
+  text-transform: uppercase;
+}
+
+.snip1577 a {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.snip1577:hover img,
+.snip1577.hover img {
+  zoom: 1;
+  filter: alpha(opacity=20);
+  -webkit-opacity: 0.2;
+  opacity: 0.2;
+}
+
+.snip1577:hover:before,
+.snip1577.hover:before,
+.snip1577:hover:after,
+.snip1577.hover:after {
+  opacity: 1;
+  -webkit-transition-delay: 0.25s;
+  transition-delay: 0.25s;
+}
+
+.snip1577:hover:before,
+.snip1577.hover:before {
+  width: 40px;
+}
+
+.snip1577:hover:after,
+.snip1577.hover:after {
+  height: 40px;
+}
+
+.snip1577:hover h3,
+.snip1577.hover h3,
+.snip1577:hover h4,
+.snip1577.hover h4 {
+  opacity: 1;
+}
+
+.snip1577:hover h3,
+.snip1577.hover h3 {
+  -webkit-transition-delay: 0.3s;
+  transition-delay: 0.3s;
+}
+
+.snip1577:hover h4,
+.snip1577.hover h4 {
+  -webkit-transition-delay: 0.35s;
+  transition-delay: 0.35s;
+}
+
+/* End JS Hiasan */
+
+/*menusekunder*/
+
+/*.ul-padding {
+    padding-inline-start: 0%;
+}
+*/
+
 
 
 /*menusekunder*/
