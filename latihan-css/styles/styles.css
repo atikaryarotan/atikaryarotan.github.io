@@ -1,0 +1,289 @@
+/* Start Google Font */
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+/* End Google Font */
+
+/* Start Body */
+body {
+    /* Properti */
+   background-color: antiquewhite;
+    color: palevioletred;
+    font-family: Roboto , Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5em;
+    margin: 0;
+    padding: 0;
+}
+/* End Body */
+
+/* Start Debug */
+.bg-blue {
+    background-color: palegoldenrod;
+}
+.bg-red {
+    background-color: blanchedalmond;
+}
+/* End Debug */
+
+/* Start Container */
+.container {
+    margin: 10px auto;
+    overflow: auto;
+    width: 85%;  
+}
+
+.container-menu {
+    margin: 10px auto;
+    overflow: hidden;
+    width: 70%;
+}
+
+.container-full {
+        margin: 10px auto;
+        overflow: auto;
+        width: 100%; 
+}
+/* End Container */
+
+/* Start Logo  */
+.logo {
+    text-align: center;
+}
+/* End Logo  */
+
+/*Start Anchor/Hyperlink*/
+a:link,
+a:visited {
+    color: palevioletred
+}
+
+a:hover,
+a:active{
+    color: burlywood;
+    text-decoration: underline;
+}
+/*End Anchor/Hyperlink*/
+
+/* Start Menu Primer  */
+.menu-primer ul{
+    background-color: blanchedalmond;
+    border-radius: 0px;
+    box-shadow: 
+        0 3px 5px -1px rgba(0,0,0,.2),
+        0 6px 10px 0 rgba(0,0,0,.14),
+        0 1px 18px 0px rgba(0,0,0,.12);
+    }
+
+.menu-primer li{
+    border-right: 1px solid whitesmoke;
+    display: inline-block;
+}
+    
+.menu-primer a{
+    color: palevioletred;
+    font-size: 13px;
+    display: inline-block;
+    margin: 0-4px;
+    letter-spacing: 1px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}  
+.jumbroton h1{
+    font-size: 32px;
+    padding: 0/*untuk atas bawah*/ 20px; /*untuk kiri kanan*/
+}
+
+
+.menu-primer .active {
+    background: palevioletred;
+    color: palegoldenrod;
+    text-decoration: none;
+}
+
+/* End Menu Primer  */
+
+
+/* Start Heading */
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+h1 {
+    font-size: 28px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+h4 {
+    font-size: 16px;
+}
+
+h5 {
+    font-size: 14px;
+}
+
+h6 {
+    font-size: 13px;
+}
+/* Start Heading */
+
+/* Start Jumbroton*/
+.jumbroton {
+    background-color: blanchedalmond;
+    border: 1px solid azure;
+    border-radius: 4px;
+    padding: 20px 0;
+}
+
+.jumbroton h1{
+    font-size: 32px;
+    padding: 0/*untuk atas bawah*/ 20px; /*untuk kiri kanan*/
+}
+
+.jumbroton h3{
+    font-size: 20px;
+    padding: 0 20px; 
+}
+/* End Jumbroton*/
+
+/* Start Main */
+.main-home-one {
+
+    float: left;
+    width: 49.5%;
+}
+
+.main-home-two {
+    float: right ;
+    width: 49.5%;
+}
+/* End Main */
+
+.main-home-one .box-isi,
+.main-home-two .box-isi {
+    height: 140px;
+}
+
+.main-home-one .box-isi-Artikel-Testi ,
+.main-home-two .box-isi-Artikel-Testi {
+    height: 200px;
+}
+
+/* Start Box*/
+.box-heading {
+    background-color:blanchedalmond;
+    border : 1px solid rgb(241, 176, 198);
+    border-radius: 3px 3px 0 0;
+    margin: 0;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    
+}
+
+.box-heading h4 {
+    font-size: 14px;
+    margin: 0;
+}
+
+.box-isi {
+    background-color:#ffffff;
+    border : 1px solid rgb(241, 176, 198);
+    border-top: 0;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.box-isi-Artikel-Testi {
+    background-color:#ffffff;
+    border: 1px solid  rgb(241, 176, 198);
+    border-top: 0;
+    margin: 0;
+    padding: 0;
+    
+}
+/* End Box*/
+
+/*Start testimonial*/
+.testimonial {
+    border-left: 4px solid rgb(241, 176, 198);
+    margin-left: 30px;
+    padding-left: 20px;
+}
+/*End testimonian*/
+
+/* Start Menu Sekunder */
+.menu-sekunder {
+    background-color: blanchedalmond;
+    border-bottom: 1px solid rgb(241, 176, 198);
+    border-top: 1px solid rgb(241, 176, 198);
+    overflow: auto;
+    padding: 10px;
+}
+
+.menu-sekunder h4 {
+    font-size: 14px;
+    margin: 0 auto;
+    text-transform: uppercase;
+}
+
+.menu-sekunder ul{
+     padding: 0;
+}
+
+.menu-sekunder li{
+    list-style: disc;
+}
+
+.menu-sekunder li a,
+.menu-sekunder {
+    font-size: 15px;
+}
+
+.menu-sekunder-one,
+.menu-sekunder-two,
+.menu-sekunder-three {
+    float: left; 
+}
+
+.menu-sekunder-one{
+    width: 40%;
+}
+
+.menu-sekunder-two, 
+.menu-sekunder-three{
+    width: 30%;
+}
+
+.menu-sekunder li img {
+    vertical-align: middle;
+}
+
+
+/* End Menu Sekunder */
+
+
+
+
+/*menusekunder*/
+
+/*.ul-padding {
+    padding-inline-start: 0%;
+}
+*/
+/* Start copyright*/
+.copyright p {
+    font-size: 15px;
+
+}
+
+/* End copyright */
+
+
+/*menusekunder*/
